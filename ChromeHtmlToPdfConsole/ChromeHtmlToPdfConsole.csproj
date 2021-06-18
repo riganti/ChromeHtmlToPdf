@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net461</TargetFramework>
     <StartupObject>ChromeHtmlToPdfConsole.Program</StartupObject>
     <ApplicationIcon />
     <AssemblyVersion>2.2.0.0</AssemblyVersion>

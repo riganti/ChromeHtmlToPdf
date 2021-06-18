@@ -189,7 +189,7 @@ namespace ChromeHtmlToPdfLib.Helpers
                 {
                     var line = streamReader.ReadLine();
                     if (line != null)
-                        writer.WriteLine(HttpUtility.HtmlEncode(line));
+                        writer.WriteLine(WebUtility.HtmlEncode(line));
                 }
 
                 writer.WriteLine("</pre>");
